@@ -1,0 +1,38 @@
+header {
+    background-color: #222;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-input {
+    display: block;
+    font-size: 2em;
+    height: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color: #222;
+    border: none;
+    text-align: center;
+    max-width: 500px;
+    color: #fff;
+    min-width: 50px;
+    align-self: center;
+}
+
+.header-input::placeholder {
+    color: #fff;
+}
+
+.header-input:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.header-input:focus ::after {
+    border-right: 1px solid white;
+}
